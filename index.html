@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | RENTAL</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">ALUGUEL</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#rent">Aluguel</a></li>
+          <li><a href="#ride">Viagem</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="nav__btn">
+          <button class="btn">Começar</button>
+        </div>
+      </nav>
+      <div class="header__container" id="home">
+        <h1>ALUGUEL DE CARROS PREMIUM</h1>
+        <form action="/">
+          <div class="input__group">
+            <label for="location">Local de retirada e devolução</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="Dallas, Texas"
+            />
+          </div>
+          <div class="input__group">
+            <label for="start">Início</label>
+            <input
+              type="text"
+              name="start"
+              id="start"
+              placeholder="16 de Ago, 10:00 AM"
+            />
+          </div>
+          <div class="input__group">
+            <label for="stop">Parada</label>
+            <input
+              type="text"
+              name="stop"
+              id="stop"
+              placeholder="18 de Ago, 10:00 PM"
+            />
+          </div>
+          <button class="btn">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <img src="assets/header.png" alt="cabeçalho" />
+      </div>
+      <a href="#about" class="scroll__down">
+        <i class="ri-arrow-down-line"></i>
+      </a>
+    </header>
+
+    <section class="section__container range__container" id="about">
+      <h2 class="section__header">AMPLA GAMA DE VEÍCULOS</h2>
+      <div class="range__grid">
+        <div class="range__card">
+          <img src="assets/range-1.jpg" alt="gama" />
+          <div class="range__details">
+            <h4>CARROS</h4>
+            <a href="#"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="range__card">
+          <img src="assets/range-2.jpg" alt="gama" />
+          <div class="range__details">
+            <h4>SUVS</h4>
+            <a href="#"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="range__card">
+          <img src="assets/range-3.jpg" alt="gama" />
+          <div class="range__details">
+            <h4>VANS</h4>
+            <a href="#"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="range__card">
+          <img src="assets/range-4.jpg" alt="gama" />
+          <div class="range__details">
+            <h4>ELETÉTRICOS</h4>
+            <a href="#"><i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container location__container" id="rent">
+      <div class="location__image">
+        <img src="assets/location.png" alt="localização" />
+      </div>
+      <div class="location__content">
+        <h2 class="section__header">ENCONTRE CARRO EM SUAS LOCALIZAÇÕES</h2>
+        <p>
+          Descubra o veículo perfeito adaptado às suas necessidades, onde quer que você esteja.
+          Nosso recurso 'Encontrar Carro em Suas Localizações' permite que você
+          busque e selecione facilmente entre nossa frota premium disponível perto de você. 
+          Seja você estiver procurando por um sedã de luxo, um SUV espaçoso ou um conversível esportivo,
+          nossa ferramenta fácil de usar garante que você encontre o carro ideal para sua jornada. 
+          Basta inserir sua localização e deixe-nos conectá-lo com veículos de alto nível prontos para aluguel.
+        </p>
+        <div class="location__btn">
+          <button class="btn">Encontrar uma Localização</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="select__container" id="ride">
+      <h2 class="section__header">ESCOLHA SEU CARRO DOS SONHOS HOJE</h2>
+      <!-- Contêiner principal do slider -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="select__card">
+              <img src="assets/select-1.png" alt="select" />
+              <div class="select__info">
+                <div class="select__info__card">
+                  <span><i class="ri-speed-up-line"></i></span>
+                  <h4>200 <span>km/h</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-settings-5-line"></i></span>
+                  <h4>6 <span>speed</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-roadster-line"></i></span>
+                  <h4>5 <span>seats</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-signpost-line"></i></span>
+                  <h4>15 <span>milage</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="select__card">
+              <img src="assets/select-2.png" alt="select" />
+              <div class="select__info">
+                <div class="select__info__card">
+                  <span><i class="ri-speed-up-line"></i></span>
+                  <h4>215 <span>km/h</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-settings-5-line"></i></span>
+                  <h4>6 <span>speed</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-roadster-line"></i></span>
+                  <h4>5 <span>seats</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-signpost-line"></i></span>
+                  <h4>16 <span>milage</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="select__card">
+              <img src="assets/select-3.png" alt="select" />
+              <div class="select__info">
+                <div class="select__info__card">
+                  <span><i class="ri-speed-up-line"></i></span>
+                  <h4>306 <span>km/h</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-settings-5-line"></i></span>
+                  <h4>6 <span>speed</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-roadster-line"></i></span>
+                  <h4>5 <span>seats</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-signpost-line"></i></span>
+                  <h4>12 <span>milage</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="select__card">
+              <img src="assets/select-4.png" alt="select" />
+              <div class="select__info">
+                <div class="select__info__card">
+                  <span><i class="ri-speed-up-line"></i></span>
+                  <h4>350 <span>km/h</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-settings-5-line"></i></span>
+                  <h4>6 <span>speed</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-roadster-line"></i></span>
+                  <h4>2 <span>seats</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-signpost-line"></i></span>
+                  <h4>08 <span>milage</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="select__card">
+              <img src="assets/select-5.png" alt="select" />
+              <div class="select__info">
+                <div class="select__info__card">
+                  <span><i class="ri-speed-up-line"></i></span>
+                  <h4>254 <span>km/h</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-settings-5-line"></i></span>
+                  <h4>6 <span>speed</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-roadster-line"></i></span>
+                  <h4>5 <span>seats</span></h4>
+                </div>
+                <div class="select__info__card">
+                  <span><i class="ri-signpost-line"></i></span>
+                  <h4>10 <span>milage</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Manual de Instalação</a></li>
+            <li><a href="#">Notas de Lançamento</a></li>
+            <li><a href="#">Ajuda da Comunidade</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Empresa</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#rent">Aluguel</a></li>
+            <li><a href="#ride">Viagem</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="#">Demonstração</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Perguntas Frequentes</a></li>
+            <li><a href="#">Recursos</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2021 desenvolvido por Adriano Luis Dimande. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
